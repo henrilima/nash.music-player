@@ -74,7 +74,7 @@ function play(id = null) {
     mySound.play();
     setTimeout(() => {
         thisPercent = mySound.getDuration();
-    }, 1000);
+    }, 2000);
 
     var intervalo = setInterval(() => {
         songPercent = songPercent + 1;
