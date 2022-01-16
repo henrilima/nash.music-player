@@ -9,7 +9,7 @@ setInterval(() => {
             setTimeout(() => {
                 text.innerText = 'Sente-se e medite!';
                 setTimeout(() => image.style.animation = 'appears 2s ease-in-out forwards', 5);
-                image.src = './../assets/meditar.svg';
+                image.src = '/ako.music-player/assets/meditar.svg';
                 acc = 'meditate';
             }, 1000);
             break;
@@ -19,7 +19,7 @@ setInterval(() => {
             setTimeout(() => {
                 text.innerText = 'Liberte seu lado criativo!';
                 setTimeout(() => image.style.animation = 'appears 2s ease-in-out forwards', 5);
-                image.src = './../assets/criativo.svg';
+                image.src = '/ako.music-player/assets/criativo.svg';
                 acc = 'creative';
             }, 1000);
             break;
