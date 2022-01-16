@@ -78,10 +78,9 @@ function play(id = null) {
 
     var intervalo = setInterval(() => {
         songPercent = songPercent + 1;
-        if (songPercent === thisPercent) {
+        if (songPercent > thisPercent) {
             songPercent = 0;
-            document.getElementById('countdown').innerText = `--:-- / --:--`;
-            clearInterval(intervalo);
+            thisPercent = 0;
         };
         document.getElementById('countdown').innerText = `${toTimer(songPercent)} / ${toTimer(thisPercent)}`;
     }, 1000);
@@ -91,6 +90,8 @@ function play(id = null) {
         audioArrays = audioArrays.slice(1, 1000);
         songPercent = 0;
         song = false;
+        document.getElementById('countdown').innerText = `--:-- / --:--`;
+        clearInterval(intervalo);
 
         finished();
         play();
