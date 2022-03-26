@@ -1,6 +1,6 @@
-# Music App (Landing Page)
+# Music Web App
 
-> ### **View: [clique aqui](https://henrilima.github.io/ako.music-player/)**
+> ### **View: [clique aqui](https://henrilima.github.io/nash.music-player/)**
 
 <br/>
 
