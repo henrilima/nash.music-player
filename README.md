@@ -1,6 +1,6 @@
 # Music Web App
 
-> ### **View: [clique aqui](https://henrilima.github.io/nash.music-player/)**
+### <b>View:</b> [clique aqui](https://henrilima.github.io/nash.music-player/)
 
 <br/>
 
