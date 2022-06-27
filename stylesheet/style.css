@@ -179,7 +179,7 @@ strong {
     color: #f2f2f2;
     padding: 0.6rem 1rem;
     margin: 20px 0;
-    background-color: #553772;
+    background-color: #704A94;
     border: none;
     border-radius: 0.8rem;
     font-size: 0.9rem;
@@ -209,6 +209,8 @@ footer section {
 }
 
 footer section span {
+    text-align: center;
+    
     display: flex;
     align-items: flex-start;
     flex-direction: column;
