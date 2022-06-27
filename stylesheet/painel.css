@@ -171,12 +171,11 @@ main section:last-child {
     height: 200px;
     border-radius: 1rem;
     margin: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
 
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     transition: all 0.6s;
 }
 
@@ -186,9 +185,9 @@ main section:last-child {
 }
 
 .box-img {
-    width: auto;
-    height: 100px;
-    border-radius: 10rem;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
     transition: all 0.6s;
 }
 
