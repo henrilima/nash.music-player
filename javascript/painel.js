@@ -112,9 +112,12 @@ function togglePauseAndResume() {
     if ([...document.getElementById('play-button').classList].includes('fa-play')) {
         document.getElementById('play-button').classList.remove('fa-play');
         document.getElementById('play-button').classList.add('fa-pause');
+        clearInterval(intervalo);
+        document.getElementById('countdown').innerText = `${toTimer(songPercent)} / ${toTimer(thisPercent)}`;
     } else {
         document.getElementById('play-button').classList.add('fa-play');
         document.getElementById('play-button').classList.remove('fa-pause');
+        setInterval(() => document.getElementById('countdown').innerText = `${toTimer(songPercent)} / ${toTimer(thisPercent)}`, 1000);
     };
 };
 
