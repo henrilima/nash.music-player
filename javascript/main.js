@@ -19,7 +19,7 @@ setInterval(() => {
             setTimeout(() => {
                 text.innerText = 'Liberte seu lado criativo!';
                 setTimeout(() => image.style.animation = 'appears 2s ease-in-out forwards', 5);
-                image.src = '/ako.music-player/assets/criativo.svg';
+                image.src = './assets/criativo.svg';
                 acc = 'creative';
             }, 1000);
             break;
