@@ -138,8 +138,8 @@ strong {
 }
 
 .box {
-    margin: 10px 20px;
-    width: 280px;
+    margin: 0.5rem 1rem;
+    width: calc(272px - 2%);
     padding: 20px;
     border-radius: 1rem;
     color: #000;
@@ -157,6 +157,7 @@ strong {
 
 .box ul li::before {
     content: '⇝ ';
+    font-style: bold; 
 }
 
 .box h2 {
@@ -168,6 +169,7 @@ strong {
 }
 
 .box .button {
+    pading: 0.4rem 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -177,7 +179,7 @@ strong {
     color: #f2f2f2;
     padding: 0.6rem 1rem;
     margin-top: 30px;
-    background-color: #8f3b76;
+    background-color: #A17EE6;
     border: none;
     border-radius: 0.8rem;
     font-size: 0.9rem;
@@ -188,7 +190,7 @@ strong {
 
 .box .button button:hover {
     cursor: pointer;
-    background-color: #553772;
+    background-color: #715C96;
 }
 
 footer {
