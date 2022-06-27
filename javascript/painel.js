@@ -98,13 +98,6 @@ function play(id = null) {
     });
 };
 
-function boxClick(id) {
-    document.getElementsByClassName('box')[id].style.animation = 'click 2s ease-in-out forwards';
-    setTimeout(() => {
-        document.getElementsByClassName('box')[id].style.animation = 'none';
-    }, 2000);
-};
-
 function togglePauseAndResume() {
     if (song === false) return;
     playing.togglePlay();
