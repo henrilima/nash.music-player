@@ -178,7 +178,7 @@ strong {
     color: #f2f2f2;
     padding: 0.6rem 1rem;
     margin: 20px 0;
-    background-color: #A17EE6;
+    background-color: #553772;
     border: none;
     border-radius: 0.8rem;
     font-size: 0.9rem;
@@ -189,7 +189,7 @@ strong {
 
 .box .button button:hover {
     cursor: pointer;
-    background-color: #715C96;
+    background-color: #553772;
 }
 
 footer {
