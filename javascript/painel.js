@@ -3,7 +3,7 @@ let songs = [{
         name: 'Looking at Me',
         artist: 'Sabrina Carpenter',
         image: './images/sabrina.jpg',
-        audio: '/musics/SabrinaCarpenter.mp3'
+        audio: './musics/SabrinaCarpenter.mp3'
     },
     {
         name: 'Princesses Don\'t Cry',
