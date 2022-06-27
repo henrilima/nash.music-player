@@ -9,7 +9,7 @@ setInterval(() => {
             setTimeout(() => {
                 text.innerText = 'Sente-se e medite!';
                 setTimeout(() => image.style.animation = 'appears 2s ease-in-out forwards', 5);
-                image.src = '/ako.music-player/assets/meditar.svg';
+                image.src = './assets/meditar.svg';
                 acc = 'meditate';
             }, 1000);
             break;
