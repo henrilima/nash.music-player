@@ -52,6 +52,7 @@ header nav ul li a {
     font-weight: 800;
     margin: 10px 20px;
     transition: all 0.6s;
+    font-size: 0.8rem;
 }
 
 header nav ul li a:hover {
@@ -209,10 +210,8 @@ footer section {
 }
 
 footer section span {
-    text-align: center;
-    
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
 }
