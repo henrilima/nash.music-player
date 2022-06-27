@@ -2,32 +2,32 @@ let audioArrays = [];
 let songs = [{
         name: 'Looking at Me',
         artist: 'Sabrina Carpenter',
-        image: '/ako.music-player/images/sabrina.jpg',
-        audio: '/ako.music-player/musics/SabrinaCarpenter.mp3'
+        image: './images/sabrina.jpg',
+        audio: '/musics/SabrinaCarpenter.mp3'
     },
     {
         name: 'Princesses Don\'t Cry',
         artist: 'Carys',
-        image: '/ako.music-player/images/carys.jpg',
-        audio: '/ako.music-player/musics/Carys.mp3'
+        image: './images/carys.jpg',
+        audio: './musics/Carys.mp3'
     },
     {
         name: 'Butterflies',
         artist: 'Zendaya',
-        image: '/ako.music-player/images/zendaya.jpg',
-        audio: '/ako.music-player/musics/Zendaya.mp3'
+        image: './images/zendaya.jpg',
+        audio: './musics/Zendaya.mp3'
     },
     {
         name: 'Tears of Gold',
         artist: 'Faouzia',
-        image: '/ako.music-player/images/faouzia.jpg',
-        audio: '/ako.music-player/musics/Faouzia.mp3'
+        image: './images/faouzia.jpg',
+        audio: './musics/Faouzia.mp3'
     },
     {
         name: 'Good in Goodbye',
         artist: 'Madison Beer',
-        image: '/ako.music-player/images/madison.jpg',
-        audio: '/ako.music-player/musics/Madison.mp3'
+        image: './images/madison.jpg',
+        audio: './musics/Madison.mp3'
     },
 ];
 var navDetails = document.getElementById('nav-details');
