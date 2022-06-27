@@ -44,6 +44,7 @@ header nav {
 
 header nav ul {
     display: flex;
+    text-align: center;
 }
 
 header nav ul li a {
@@ -258,7 +259,7 @@ footer section span a {
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1080px) {
     header nav {
         flex-direction: column;
     }
@@ -285,6 +286,11 @@ footer section span a {
 
     footer section span {
         margin: 10px 0;
+    }
+    
+    .box {
+        margin: 0.5rem 1rem;
+        width: calc(260px - 5%);
     }
 
     .svg {
